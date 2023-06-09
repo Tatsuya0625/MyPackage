@@ -1,0 +1,14 @@
+name = "MyPackage"
+uuid = "c5d119d9-c5ba-438c-bade-0b5edcfce5bf"
+authors = ["Tatsuya_Yamaguchi <t.yamaguchi.0625@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+
+[targets]
+test = ["Test", "QuadGK"]
